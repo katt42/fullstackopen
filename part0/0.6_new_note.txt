@@ -1,0 +1,8 @@
+title Creating new note in spa
+
+
+note over Browser: when the form button is clicked, browser sends data in json format to server.
+Browser->Server:HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over Server: server responds with 201 created status code
+Server-->Browser: status code 201
+note over Browser: no new requests come from the server. \nbrowser executes event handler and renders notes to display
